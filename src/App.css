@@ -1,6 +1,8 @@
 .App {
+  padding: 0;
   text-align: center;
   font-family: Inter;
+  overflow:hidden
 }
 
 .nav{
@@ -10,6 +12,7 @@
   align-items: center;
   justify-content: center;
   background: rgba(245, 90, 90, 1);
+  padding: 0;
 }
 
 .nav--image{
@@ -41,8 +44,8 @@
 
 
 .card--img{
-  width: 200px;
-  height: 250px;
+  width: 225px;
+  height: 300px;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -52,7 +55,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding-left: 5%;
-  height: 250px;
+  height: 300px;
 }
 
 .card--cords{
