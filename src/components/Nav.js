@@ -1,7 +1,11 @@
 import React from "react"
+import icon from "../images/earth.png"
 
 export default function Nav(){
     return(
-        <h1>Nav</h1>
+        <div className="nav">
+            <img className="nav--image" src={icon} alt="globe"></img>
+            <h1 className="nav--title">my travel journal</h1>
+        </div>
     )
 }
