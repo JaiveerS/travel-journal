@@ -31,8 +31,7 @@
   align-items: center;
   flex-direction: row;
   margin:auto;
-  outline: 1px solid red;
-  width: 80%;
+  width: 60%;
   height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -50,7 +49,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 168px;
   padding-left: 5%;
 }
 
@@ -62,6 +60,7 @@
   font-size: 10px;
   color: #2B283A;
   align-items: center;
+  gap: 2px;
 }
 
 /* .card--loc{
@@ -72,9 +71,10 @@
   align-items: center;
 } */
 
-/* .card--url{
-  height: 100%;
-} */
+.card--url{
+  padding-left: 5px;
+  color: rgba(145, 142, 155, 1);
+}
 
 .card--title{
   width:100%;
@@ -97,4 +97,9 @@
   text-align: start;
   font-size: 10px;
   line-height: 150%;
+}
+
+.material-icons{
+  font-size:15px;
+  color:rgba(245, 90, 90, 1);
 }
