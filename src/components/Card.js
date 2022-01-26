@@ -4,7 +4,7 @@ export default function Card(prop){
     console.log(prop.card.imageUrl)
     return(
         <div className="card">
-            <img className="card--img" src={prop.card.imageUrl}></img>
+            <img className="card--img" src={prop.card.imageUrl} alt="place"></img>
             <div className="card--info">
                 <div className="card--cords">
                 <i className="material-icons">add_location</i>
