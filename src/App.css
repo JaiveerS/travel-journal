@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Inter;
 }
 
 .nav{
@@ -72,6 +73,13 @@
 
 .card--location{
   margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
 }
 
 .card--url{
@@ -85,7 +93,7 @@
   font-size: 25px;
   line-height: 30px;
   font-weight: bold;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .card--dates{
